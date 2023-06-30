@@ -1,0 +1,45 @@
+dubbo:
+  scan:
+    base-packages: com.linqibin
+  protocol:
+    name: dubbo
+    port: 26756
+  registry:
+    address: nacos://127.0.0.1:8848
+  cloud:
+    subscribed-services: distributed-uuid-server
+spring:
+  application:
+    name: idempotent-design-user-server
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 2adb04ca-5c8f-4174-b234-123041fe6563
+        group: idempotent-design-user-server
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 2adb04ca-5c8f-4174-b234-123041fe6563
+        group: idempotent-design-user-server
+  redis:
+    host: 123.60.92.39
+    port: 6379
+  datasource:
+    url: jdbc:mysql://123.60.92.39:13306/spring_cloud_alibaba_practice?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+    maximumPoolSize: 10
+    minimumIdle: 2
+    idleTimeout: 600000
+    connectionTimeout: 30000
+    maxLifetime: 1800000
+server:
+  port: 7867
+mybatis-plus:
+  type-aliases-package: com.linqibin.mapper
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+

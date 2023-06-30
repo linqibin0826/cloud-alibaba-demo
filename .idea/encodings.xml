@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/dubbo-common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-common-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/distributed-uuid-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/distributed-uuid-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/idempotent-design-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/idempotent-design-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/idempotent-design-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/idempotent-design-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/idempotent-design-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/idempotent-design-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-nacos-spring-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-nacos-spring-boot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-spring-cloud-alibaba-discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-spring-cloud-alibaba-discovery/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
