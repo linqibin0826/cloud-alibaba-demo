@@ -6,6 +6,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/idempotent-design-spring-cloud-alibaba/distributed-uuid-server/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-four/dubbo-common-api/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-four/idempotent-design-spring-cloud-alibaba/idempotent-design-client/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-four/idempotent-design-spring-cloud-alibaba/idempotent-design-server/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-four/idempotent-design-spring-cloud-alibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-four/use-nacos-spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-four/use-spring-cloud-alibaba-discovery/pom.xml" />
       </list>
     </option>
   </component>

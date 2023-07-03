@@ -1,0 +1,24 @@
+dubbo:
+  scan:
+    base-packages: com.linqibin
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://127.0.0.1:8848
+spring:
+  application:
+    name: ribbon-discovery-spring-cloud-alibaba-provider
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 0665634b-dfac-4075-b50c-15f49a5194de
+        group: ribbon-discovery-spring-cloud-alibaba-provider
+server:
+  port: 7887
+
+
+

@@ -9,10 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>use-nacos-spring-boot</module>
-        <module>use-spring-cloud-alibaba-discovery</module>
-        <module>idempotent-design-spring-cloud-alibaba</module>
         <module>dubbo-common-api</module>
+        <module>chapter-four</module>
     </modules>
 
     <properties>

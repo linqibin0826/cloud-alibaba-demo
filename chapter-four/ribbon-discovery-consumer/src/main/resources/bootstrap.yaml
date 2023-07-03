@@ -1,0 +1,24 @@
+dubbo:
+  cloud:
+    subscribed-services: "ribbon-discovery-spring-cloud-alibaba-provider"
+  protocol:
+    name: dubbo
+    port: 26734
+    registry:
+      address: nacos://127.0.0.1:8848
+spring:
+  application:
+    name: ribbon-discovery-spring-cloud-alibaba-consumer
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 0665634b-dfac-4075-b50c-15f49a5194de
+        group: ribbon-discovery-spring-cloud-alibaba-consumer
+server:
+  port: 7889
+ribbon-discovery-spring-cloud-alibaba-provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
