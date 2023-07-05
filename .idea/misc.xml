@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/chapter-four/idempotent-design-spring-cloud-alibaba/pom.xml" />
         <option value="$PROJECT_DIR$/chapter-four/use-nacos-spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/chapter-four/use-spring-cloud-alibaba-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-five/use-nacos-client-nacos-config/pom.xml" />
       </list>
     </option>
   </component>

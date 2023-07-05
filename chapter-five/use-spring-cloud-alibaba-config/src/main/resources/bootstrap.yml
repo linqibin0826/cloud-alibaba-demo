@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: use-spring-cloud-alibaba-config
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: localhost:8848
+        group: use-spring-cloud-alibaba-config
+        namespace: c2b9b97e-8073-48f6-a0e8-8a1b76458457
+        extension-configs[0]:
+          data-id: use-spring-cloud-alibaba-config-demo.yaml
+          group: use-spring-cloud-alibaba-config
+          refresh: true
+
+
+server:
+  port: 7979

@@ -11,6 +11,7 @@
     <modules>
         <module>dubbo-common-api</module>
         <module>chapter-four</module>
+        <module>chapter-five</module>
     </modules>
 
     <properties>
